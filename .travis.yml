@@ -3,6 +3,8 @@ xcode_project: vimman-ios.xcodeproj
 xcode_scheme: vimman-iosTests
 script:
   - make test
+after_success:
+  - ./script/coveralls.sh
 notifications:
   email:
     recipients: tetsuwo.oishi@gmail.com
