@@ -1,8 +1,8 @@
 language: objective-c
-
 xcode_project: vimman-ios.xcodeproj
 xcode_scheme: vimman-iosTests
-
+script:
+  - make test
 notifications:
   email:
     recipients: tetsuwo.oishi@gmail.com
