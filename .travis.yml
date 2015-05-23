@@ -1,0 +1,10 @@
+language: objective-c
+
+xcode_project: vimman-ios.xcodeproj
+xcode_scheme: vimman-iosTests
+
+notifications:
+  email:
+    recipients: tetsuwo.oishi@gmail.com
+    on_success: always # [always|never|change]
+    on_failure: always # [always|never|change]
