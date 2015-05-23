@@ -1,5 +1,5 @@
 PROJECT = vimman-ios.xcodeproj
-TEST_TARGET = Tests
+TEST_TARGET = vimman-iosTests
 
 clean:
 	xcodebuild \
